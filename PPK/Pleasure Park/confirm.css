@@ -1,0 +1,69 @@
+.btn {
+  all: unset;
+  padding: 15px;
+  background-color: rgba(112, 17, 36, 0.928);
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  left: 40%;
+  top: 48%;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.ff {
+  font-family: cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("./resort.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.confirm {
+  width: 40%;
+  margin: 30vh auto;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 0 100px 100px 100px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.593);
+}
+
+.confirm h1 {
+  font-size: 4em;
+  line-height: 2;
+  text-align: center;
+}
+
+.confirm span {
+  color: rgba(112, 17, 36, 0.928);
+}
+
+.confirm h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.confirm .option {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=confirm.css.map */

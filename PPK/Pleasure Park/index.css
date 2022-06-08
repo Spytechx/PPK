@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("./resort.jpg");
+  background-size: cover;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  background-color: rgba(112, 17, 36, 0.928);
+  padding: 20px;
+}
+
+nav h1 {
+  font-size: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+li {
+  margin-left: 100px;
+  padding: 5px;
+}
+
+.nav_item {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav_item:link {
+  color: white;
+}
+
+.nav_item:active {
+  color: red;
+}
+
+.nav_item:visited {
+  color: green;
+}
+
+.nav_item:hover {
+  border: 2px solid brown;
+  color: white;
+}
+
+.bg {
+  background-color: white;
+  width: 50%;
+  height: 70vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-color: gray;
+  -webkit-box-shadow: 3px 3px 2px black;
+          box-shadow: 3px 3px 2px black;
+  margin: 50px auto;
+  background-color: rgba(112, 17, 36, 0.928);
+  color: white;
+  -webkit-clip-path: polygon(100% 0, 100% 67%, 23% 100%, 0% 100%, 0 51%, 0% 0%);
+          clip-path: polygon(100% 0, 100% 67%, 23% 100%, 0% 100%, 0 51%, 0% 0%);
+}
+
+.hero h2 {
+  text-align: center;
+  margin: 10px;
+  font-size: 3.5rem;
+  font-weight: 750;
+}
+
+.hero .address {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.hero .address span {
+  font-size: 0.9em;
+}
+
+.hero a {
+  color: white;
+}
+
+.hero .btn {
+  all: unset;
+  padding: 15px;
+  background-color: rgba(112, 17, 36, 0.928);
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 40%;
+  top: 48%;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.hero .btn:hover {
+  color: rgba(112, 17, 36, 0.928);
+  background-color: white;
+}
+
+img {
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*# sourceMappingURL=index.css.map */
