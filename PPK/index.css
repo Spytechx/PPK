@@ -7,7 +7,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: url("pleasure park/img/resort.jpg");
+  background: url("img/resort.jpg");
   background-size: cover;
 }
 
@@ -41,6 +41,7 @@ ul {
 li {
   margin-left: 100px;
   padding: 5px;
+  font-weight: 700;
 }
 
 .nav_item {
@@ -61,8 +62,10 @@ li {
 }
 
 .nav_item:hover {
-  border: 2px solid brown;
   color: white;
+  padding: 2px;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .bg {

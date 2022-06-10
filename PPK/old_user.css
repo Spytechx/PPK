@@ -42,27 +42,25 @@ body {
   width: 70vw;
   height: 70vh;
   margin-left: auto;
-  background: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
-  background: linear-gradient(to right, aqua, blue);
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 58%, 40% 91%, 0 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 58%, 40% 91%, 0 0);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 34, 0, 0.887)), to(rgba(255, 0, 55, 0.716)));
+  background: linear-gradient(to right, rgba(255, 34, 0, 0.887), rgba(255, 0, 55, 0.716));
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 24%, 100% 42%, 53% 100%, 22% 44%);
+          clip-path: polygon(0 0, 100% 0, 100% 24%, 100% 42%, 53% 100%, 22% 44%);
   border-radius: 8px;
   position: absolute;
   right: 0;
 }
 
-.signup {
+.old_user {
   width: 70vw;
   height: 70vh;
   margin: 100px auto;
   border-radius: 8px;
   -webkit-box-shadow: 5px -5px 12px rgba(0, 0, 0, 0.576);
           box-shadow: 5px -5px 12px rgba(0, 0, 0, 0.576);
-  position: relative;
-  z-index: 3;
 }
 
-.signup nav {
+.old_user nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,14 +77,14 @@ body {
   font-size: 0.9em;
 }
 
-.signup nav h1 {
+.old_user nav h1 {
   color: rgba(255, 255, 255, 0.793);
   margin: 0;
   margin-right: 20px;
   font-size: 3rem;
 }
 
-.signup nav ul {
+.old_user nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,75 +92,69 @@ body {
   margin-right: 100px;
 }
 
-.signup nav ul li {
+.old_user nav ul li {
   margin: 10px;
   padding: 10px;
 }
 
-.signup nav ul a {
+.old_user nav ul a {
   color: white;
   text-decoration: none;
 }
 
-.signup .heading-one h1 {
-  font-size: 3rem;
-  padding-left: 10px;
+.old_user .login {
+  position: relative;
+  z-index: 5;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.signup .heading-one h1 span {
-  color: rgba(112, 17, 36, 0.928);
-}
-
-.signup .create {
-  width: 40%;
-  color: rgba(255, 34, 0, 0.887);
-  font-size: 2.5rem;
+.old_user .login .uname h1 {
+  font-size: 6em;
   font-weight: 900;
-  margin: 0 20px;
-  line-height: 50px;
-  margin-top: 50px;
-  padding: 0 20px;
+  color: rgba(255, 34, 0, 0.887);
 }
 
-.inputs {
-  margin-left: 100px;
-  width: 25%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+.old_user .login .uname h1 span {
+  color: white;
+}
+
+.old_user .login .uname h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgba(255, 34, 0, 0.887);
+  font-variant: small-caps;
   margin: 50px;
 }
 
-.inputs input {
+.old_user .login .username {
+  width: 20%;
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(255, 34, 0, 0.887);
+  padding: 3px;
+}
+
+.old_user .login .username input {
   all: unset;
-  padding: 8px;
-  font-weight: 600;
-}
-
-.age {
-  width: 50%;
-  margin: 50px;
-}
-
-.age h2 {
-  color: rgba(255, 34, 0, 0.887);
-}
-
-.age #select_age {
-  width: 40%;
-  padding: 10px;
-  font-size: 1.2em;
-  font-weight: 900;
-  border: none;
-  outline: 2px solid rgba(0, 0, 0, 0.4);
-}
-
-.age #select_age .opt-one {
   color: black;
-  font-size: 1rem;
+  padding-top: 5px;
+  padding-left: 20px;
 }
 
-.age #select_age .opt-one option {
-  color: black;
-  margin-bottom: 10px;
-  font-weight: 400;
+.old_user .login .btn-three {
+  all: unset;
+  margin-top: 30px;
+  padding: 5px;
+  border: 2px solid rgba(255, 34, 0, 0.887);
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+  left: 40%;
+  top: 48%;
+  font-size: 1.7em;
+  font-weight: 700;
 }
-/*# sourceMappingURL=signup.css.map */
+/*# sourceMappingURL=old_user.css.map */

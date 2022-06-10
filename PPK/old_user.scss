@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import 'helper';
+@import 'variables';
+
+
+body {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.overlap {
+    width: 70vw;
+    height: 70vh;
+    margin-left: auto;
+    background: linear-gradient(to right, rgba(255, 34, 0, 0.887), rgba(255, 0, 55, 0.716));
+    clip-path: polygon(0 0, 100% 0, 100% 24%, 100% 42%, 53% 100%, 22% 44%);
+    border-radius: 8px;
+    position: absolute;
+    right: 0;
+
+}
+
+.old_user {
+    width: 70vw;
+    height: 70vh;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 5px -5px 12px rgba(0, 0, 0, 0.576);
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        z-index: 5;
+        position: relative;
+        margin-right: 20px;
+        font-size: 0.9em;
+
+        h1 {
+            color: rgba(255, 255, 255, 0.793);
+            margin: 0;
+            margin-right: 20px;
+            font-size: 3rem;
+        }
+
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin-right: 100px;
+
+            li {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+
+    }
+
+    .login {
+        // background-color: green;
+        position: relative;
+        z-index: 5;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+
+        .uname h1 {
+            font-size: 6em;
+            font-weight: 900;
+            color: $secondary;
+
+            span {
+                color: white;
+            }
+        }
+
+        .uname h2 {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: $secondary;
+            font-variant: small-caps;
+            margin: 50px;
+        }
+
+        .username {
+            width: 20%;
+            margin: 0 auto;
+            border-bottom: 2px solid $secondary;
+            padding: 3px;
+
+            input {
+
+                all: unset;
+                color: black;
+                padding-top: 5px;
+                padding-left: 20px;
+            }
+
+        }
+
+
+        .btn-three {
+            all: unset;
+            margin-top: 30px;
+            padding: 5px;
+            border: 2px solid $secondary;
+            border-radius: 50px;
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+            color: red;
+            left: 40%;
+            top: 48%;
+            font-size: 1.7em;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,13 +1,13 @@
 .btn {
   all: unset;
   padding: 15px;
-  background-color: rgba(112, 17, 36, 0.928);
-  border: 2px solid white;
+  // background-color: rgb(112, 17, 36);
+  // border: 2px solid white;
   border-radius: 50px;
   width: 200px;
   text-align: center;
   margin: 0 auto;
- color: white;
+  color: white;
   left: 40%;
   top: 48%;
   font-size: 1.7em;
@@ -18,3 +18,21 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+//  {
+//   all: unset;
+//   color: white;
+//   padding-top: 5px;
+//   padding-left: 20px;
+
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 3px solid white;
+  color: white;
+}
